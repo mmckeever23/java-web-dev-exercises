@@ -11,11 +11,10 @@ public class ArrayListPractice {
         return total;
     }
 
-    public static <str> void printFive(String[] wordArray) {
-        for (String str : wordArray) {
-            if (str.length() == 5) {
-                System.out.print(str);
-            }
-        }
+    public static void main(String[] args) {
+        int[] ArrayList = {1, 3, 4, 2, 3, 1, 4, 3, 2, 3,};
+        Integer sum = ArrayListPractice.sumEven(ArrayList);
+        System.out.println(sum);
     }
 };
+
